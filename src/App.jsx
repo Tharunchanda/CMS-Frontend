@@ -11,7 +11,7 @@ import Profile from './pages/Profile';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/CMS-Frontend">
       <DashboardLayout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
