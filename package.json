@@ -8,8 +8,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "copy dist\\index.html dist\\404.html",
-    "predeploy": "npm run build && npm run postbuild",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
