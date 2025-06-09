@@ -18,7 +18,10 @@ const Dashboard = () => {
         >
           Select Existing Courses
         </button>
-        <button className="bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 rounded">
+        <button
+          onClick={() => navigate("/manage-courses")}
+          className="bg-green-600 hover:bg-green-700 text-white font-medium px-4 py-2 rounded"
+        >
           Add/Remove Courses
         </button>
       </div>
