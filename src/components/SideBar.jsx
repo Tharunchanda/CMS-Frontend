@@ -6,7 +6,6 @@ const navItems = [
   { name: 'Dashboard', path: '/', icon: HiHome },
   { name: 'My Courses', path: '/my-courses', icon: HiBookOpen },
   { name: 'Add / Remove Courses', path: '/manage-courses', icon: HiPlusCircle },
-  { name: 'Students', path: '/students', icon: HiUserGroup },
   { name: 'Settings', path: '/settings', icon: HiCog },
 ];
 
