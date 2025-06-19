@@ -1,12 +1,91 @@
-# React + Vite
+# CMS-Frontend (Faculty Dashboard)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive Faculty Dashboard for managing courses, students, and grades at a university.  
+Built with **React**, **Material UI**, **Tailwind CSS**, and **Vite**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Course Management:** Add, remove, and manage courses you teach.
+- **Student Management:** View enrolled students and copy their email addresses for communication.
+- **Profile & Settings:** Update your profile and dashboard preferences.
+- **Responsive Design:** Works great on desktop and mobile.
+- **Modern UI:** Built with Material UI and Tailwind CSS.
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+
+```sh
+git clone https://github.com/Tharunchanda/CMS-Frontend.git
+cd CMS-Frontend
+```
+
+### 2. Install dependencies
+
+```sh
+npm install
+```
+
+### 3. Run locally
+
+```sh
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## 🛠️ Build & Deploy
+
+### Build for production
+
+```sh
+npm run build
+```
+
+### Deploy to GitHub Pages
+
+```sh
+npm run deploy
+```
+
+The app will be available at:  
+[https://tharunchanda.github.io/CMS-Frontend](https://tharunchanda.github.io/CMS-Frontend)
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+  components/    # Reusable UI components (Sidebar, TopNav, etc.)
+  pages/         # Page components (Dashboard, ManageCourses, etc.)
+  App.jsx        # Main app component with routing
+  ...
+```
+
+---
+
+## 🧑‍💻 Tech Stack
+
+- [React](https://react.dev/)
+- [Material UI](https://mui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [React Router](https://reactrouter.com/)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+## 📄 License
+
+This project is for educational/demo purposes.
+
+---
+
+## 🙏 Acknowledgements
+
+- [Material UI](https://mui.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
+-
